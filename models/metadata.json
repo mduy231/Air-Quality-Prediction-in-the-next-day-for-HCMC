@@ -1,0 +1,16 @@
+{
+  "best_model": "Rigde Regression",
+  "target_col": "target_reg_tomorrow",
+  "n_features": 40,
+  "train_period": {
+    "start": "2022-08-31",
+    "end": "2025-06-08"
+  },
+  "test_metrics": {
+    "MAE": 8.27,
+    "RMSE": 10.78,
+    "R²": 0.75,
+    "MAPE": 8.86
+  },
+  "created_at": "2026-06-21 11:23:24"
+}

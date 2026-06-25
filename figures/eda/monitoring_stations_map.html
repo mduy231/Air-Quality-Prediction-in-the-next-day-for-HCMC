@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_334f6e361e739613f3257461597e7080 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_334f6e361e739613f3257461597e7080" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_334f6e361e739613f3257461597e7080 = L.map(
+                "map_334f6e361e739613f3257461597e7080",
+                {
+                    center: [10.82302, 106.62965],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "maxBounds": [
+[
+-90,
+-180,
+],
+[
+90,
+180,
+],
+],
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+  "bounds": [
+[
+10.35,
+106.35,
+],
+[
+11.15,
+107.05,
+],
+],
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a9578698b359390131f949a163936f1d = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 11,
+  "maxZoom": 16,
+  "maxNativeZoom": 16,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_a9578698b359390131f949a163936f1d.addTo(map_334f6e361e739613f3257461597e7080);
+        
+    
+            var circle_marker_4acdfaa64459c9de59b160b86818a664 = L.circleMarker(
+                [10.7828, 106.7003],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_334f6e361e739613f3257461597e7080);
+        
+    
+        var popup_20ff98bd7582b6884edf3ec53ddd8500 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_35b131d248582381523756383f199d1d = $(`<div id="html_35b131d248582381523756383f199d1d" style="width: 100.0%; height: 100.0%;"><b>Trạm quan trắc:</b> Lãnh sự quán Mỹ (Quận 1)</div>`)[0];
+                popup_20ff98bd7582b6884edf3ec53ddd8500.setContent(html_35b131d248582381523756383f199d1d);
+            
+        
+
+        circle_marker_4acdfaa64459c9de59b160b86818a664.bindPopup(popup_20ff98bd7582b6884edf3ec53ddd8500)
+        ;
+
+        
+    
+    
+            circle_marker_4acdfaa64459c9de59b160b86818a664.bindTooltip(
+                `<div>
+                     Nhấn để xem chi tiết
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e50741ce8321845a4370f226b09fe4a2 = L.circleMarker(
+                [10.7293, 106.6943],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_334f6e361e739613f3257461597e7080);
+        
+    
+        var popup_653f8101ed0b9a0206fa6e7507459464 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_caf71257f5060005388a7ba02089f672 = $(`<div id="html_caf71257f5060005388a7ba02089f672" style="width: 100.0%; height: 100.0%;"><b>Trạm quan trắc:</b> RMIT University (Quận 7)</div>`)[0];
+                popup_653f8101ed0b9a0206fa6e7507459464.setContent(html_caf71257f5060005388a7ba02089f672);
+            
+        
+
+        circle_marker_e50741ce8321845a4370f226b09fe4a2.bindPopup(popup_653f8101ed0b9a0206fa6e7507459464)
+        ;
+
+        
+    
+    
+            circle_marker_e50741ce8321845a4370f226b09fe4a2.bindTooltip(
+                `<div>
+                     Nhấn để xem chi tiết
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3c8d0ad8a23bd38099521468c188682d = L.circleMarker(
+                [10.8037, 106.7371],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_334f6e361e739613f3257461597e7080);
+        
+    
+        var popup_5d5669d5ab3d6729774744bf7e306616 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_bdbc42e25fe5184d9b605ed3873a005c = $(`<div id="html_bdbc42e25fe5184d9b605ed3873a005c" style="width: 100.0%; height: 100.0%;"><b>Trạm quan trắc:</b> Thảo Điền (Quận 2)</div>`)[0];
+                popup_5d5669d5ab3d6729774744bf7e306616.setContent(html_bdbc42e25fe5184d9b605ed3873a005c);
+            
+        
+
+        circle_marker_3c8d0ad8a23bd38099521468c188682d.bindPopup(popup_5d5669d5ab3d6729774744bf7e306616)
+        ;
+
+        
+    
+    
+            circle_marker_3c8d0ad8a23bd38099521468c188682d.bindTooltip(
+                `<div>
+                     Nhấn để xem chi tiết
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_983548c7edba3ce45126569bb162a67a = L.circleMarker(
+                [10.7734, 106.6606],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_334f6e361e739613f3257461597e7080);
+        
+    
+        var popup_ab93a0c9e2a32477f277e8199e6f66bc = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_6b73c4de0a85b02b66bc4980b0403fcb = $(`<div id="html_6b73c4de0a85b02b66bc4980b0403fcb" style="width: 100.0%; height: 100.0%;"><b>Trạm quan trắc:</b> Đại học Bách Khoa (Quận 10)</div>`)[0];
+                popup_ab93a0c9e2a32477f277e8199e6f66bc.setContent(html_6b73c4de0a85b02b66bc4980b0403fcb);
+            
+        
+
+        circle_marker_983548c7edba3ce45126569bb162a67a.bindPopup(popup_ab93a0c9e2a32477f277e8199e6f66bc)
+        ;
+
+        
+    
+    
+            circle_marker_983548c7edba3ce45126569bb162a67a.bindTooltip(
+                `<div>
+                     Nhấn để xem chi tiết
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_32a532d8f42aa99340c20a1c27637970 = L.circleMarker(
+                [10.8521, 106.7974],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_334f6e361e739613f3257461597e7080);
+        
+    
+        var popup_2236ac495b9564d3fda90f4ed9549a69 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_0da3052b12e8b0c099584180296bf4eb = $(`<div id="html_0da3052b12e8b0c099584180296bf4eb" style="width: 100.0%; height: 100.0%;"><b>Trạm quan trắc:</b> Khu công nghệ cao (Thủ Đức)</div>`)[0];
+                popup_2236ac495b9564d3fda90f4ed9549a69.setContent(html_0da3052b12e8b0c099584180296bf4eb);
+            
+        
+
+        circle_marker_32a532d8f42aa99340c20a1c27637970.bindPopup(popup_2236ac495b9564d3fda90f4ed9549a69)
+        ;
+
+        
+    
+    
+            circle_marker_32a532d8f42aa99340c20a1c27637970.bindTooltip(
+                `<div>
+                     Nhấn để xem chi tiết
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>

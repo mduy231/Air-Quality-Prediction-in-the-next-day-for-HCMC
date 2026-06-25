@@ -1,0 +1,4 @@
+﻿Mô hình,Accuracy,Precision (Macro),Recall (Macro),F1-Score (Macro),F1-Score (Weighted)
+Random Forest (Tuned),0.7992,0.3857,0.3892,0.3874,0.7962
+XGBoost (Based),0.7677,0.3715,0.3618,0.3658,0.7643
+LightGBM (Tuned),0.7756,0.4828,0.519,0.4973,0.7795
